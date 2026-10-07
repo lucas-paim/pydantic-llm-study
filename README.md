@@ -1,4 +1,4 @@
-# llm-output
+# pydantic-llm-study
 
 A personal study of **[Pydantic](https://docs.pydantic.dev/)** for getting structured, validated output from LLMs, based on the lessons of the [DeepLearning.AI](https://www.deeplearning.ai/short-courses/) short course *Pydantic for LLM Workflows*.
 
@@ -28,20 +28,20 @@ All notebooks live in [src/llm_output/](src/llm_output/):
 **Option A — Fork (easiest):** click **Fork** at the top of this repository's GitHub page, then clone your fork:
 
 ```bash
-git clone https://github.com/<your-username>/llm-output.git
-cd llm-output
+git clone https://github.com/<your-username>/pydantic-llm-study.git
+cd pydantic-llm-study
 ```
 
 **Option B — Clone and push to a new repository of your own:**
 
-1. Create a new, empty repository on GitHub (no README, `.gitignore` or license), e.g. `llm-output`.
+1. Create a new, empty repository on GitHub (no README, `.gitignore` or license), e.g. `pydantic-llm-study`.
 2. Clone this project and point it to your repository:
 
    ```bash
-   git clone <this-repository-url> llm-output
-   cd llm-output
+   git clone https://github.com/lucas-paim/pydantic-llm-study.git
+   cd pydantic-llm-study
    git remote rename origin upstream
-   git remote add origin https://github.com/<your-username>/llm-output.git
+   git remote add origin https://github.com/<your-username>/pydantic-llm-study.git
    git push -u origin main
    ```
 
